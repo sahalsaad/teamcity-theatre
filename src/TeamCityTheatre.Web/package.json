@@ -37,6 +37,6 @@
     "watch:js": "npm run js:debug -- --watch=true",
     "watch:pcss": "npm run pcss -- --watch=true",
     "build:debug": "npm run clean && npm run ts && npm run pcss && npm run js -- --mode=development",
-    "build:release": "npm run clean && npm run ts && npm run pcss && npm run js"
+    "build:release": "npm run clean; npm run ts; npm run pcss; npm run js"
   }
 }
